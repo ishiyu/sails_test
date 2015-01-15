@@ -22,7 +22,15 @@ module.exports = function(grunt) {
 				cwd: './assets',
 				src: ['**/*.!(coffee|less)'],
 				dest: '.tmp/public'
-			}]
+			}, {
+        expand: true,
+        cwd: './bower_components',
+        src: [
+          'vue/dist/vue.min.js',
+        ],
+        flatten: true,
+        dest: '.tmp/public/js/dependencies'
+      }]
 		},
 		build: {
 			files: [{
