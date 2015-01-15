@@ -8,6 +8,7 @@ node.js がインストールされている必要があります。
 $ npm -g install bower
 $ npm -g install sails
 
+$ git clone http://github.com/ishiyu/sails_test
 $ cd sails_test
 $ bower install
 $ sails lift
