@@ -38,6 +38,7 @@ module.exports = function(grunt) {
         cwd: './bower_components',
         src: [
           'bourbon/**/*.scss',
+          'neat/**/*.scss',
         ],
         flatten: false,
         dest: 'assets/styles/dependencies'
