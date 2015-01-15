@@ -10,6 +10,7 @@ $ npm -g install sails
 
 $ git clone http://github.com/ishiyu/sails_test
 $ cd sails_test
+$ npm install
 $ bower install
 $ sails lift
 ```
