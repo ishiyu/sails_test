@@ -24,26 +24,6 @@ module.exports = function(grunt) {
 				dest: '.tmp/public'
 			}]
 		},
-    bower: {
-      files: [{
-        expand: true,
-        cwd: './bower_components',
-        src: [
-          'vue/dist/vue.min.js',
-        ],
-        flatten: true,
-        dest: 'assets/js/dependencies'
-      }, {
-        expand: true,
-        cwd: './bower_components',
-        src: [
-          'bourbon/**/*.scss',
-          'neat/**/*.scss',
-        ],
-        flatten: false,
-        dest: 'assets/styles/dependencies'
-      }]
-    },
 		build: {
 			files: [{
 				expand: true,

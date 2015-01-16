@@ -14,7 +14,7 @@
  * or any other Grunt tasks you like.)
  */
 
-@import 'dependencies/bourbon/app/assets/stylesheets/bourbon';
+@import 'dependencies/bourbon/bourbon';
 @import "base/grid-settings";
-@import 'dependencies/neat/app/assets/stylesheets/neat';
+@import 'dependencies/neat/neat';
 @import 'base/base';
